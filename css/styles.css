@@ -1,0 +1,51 @@
+body {
+    font-family: "Open Sans", sans-serif; 
+}
+
+.jumbotron {
+    margin: 0;
+    padding: 30px;
+    background-image: linear-gradient(to right, #dad4f8, rgb(184, 232, 247), #caeef7);
+    color: white; 
+}
+
+.banner {
+        border: 2px solid #fff;
+        padding: 8px 30px 4px;
+        background-image: linear-gradient(to right,  #ddc0e2 , #b6f1f1, #caeef7);
+        background-clip: padding-box;
+        text-align: center;
+}
+
+.navbar {
+    width: 100%;
+    margin-left: auto ;
+    margin-right: auto ;
+    padding: 0px;
+    background-color: #ABCDEF;
+}
+
+.navbar ul {
+    list-style-type: none; 
+    text-align: center;
+    margin: 0px;
+    padding: 0px;
+    width: 90%;
+    /*overflow: hidden;*/
+}
+
+.navbar li {
+    float: left;
+    padding: 2px;
+    width: 150px;
+    margin-left: auto ;
+    margin-right: auto ;
+}
+
+.navbar .navbar-nav .nav-link {
+    color: black;
+}
+
+h11 {
+    font-size: 11px;
+}
