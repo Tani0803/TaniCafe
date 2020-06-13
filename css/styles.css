@@ -1,20 +1,30 @@
 body {
     font-family: "Open Sans", sans-serif; 
+    background-color: rgba(214, 206, 206, 0.5);
+
 }
+
+h1, h2, h3 {
+    font-family: "Lobster", cursive;
+    font-weight: bold;
+}
+
 
 .jumbotron {
     margin: 0;
     padding: 30px;
-    background-image: linear-gradient(to right, #dad4f8, rgb(184, 232, 247), #caeef7);
+  /*  background-image: linear-gradient(to right, #dad4f8, rgb(184, 232, 247), #caeef7);*/
+    background:url('../img/cup1.jpg') no-repeat center center / cover ;
     color: white; 
 }
 
 .banner {
         border: 2px solid #fff;
         padding: 8px 30px 4px;
-        background-image: linear-gradient(to right,  #ddc0e2 , #b6f1f1, #caeef7);
+     /*   background-image: linear-gradient(to right,  #ddc0e2 , #b6f1f1, #caeef7);*/
         background-clip: padding-box;
         text-align: center;
+        background-color: rgba(214, 206, 206, 0.5);
 }
 
 .navbar {
@@ -22,7 +32,7 @@ body {
     margin-left: auto ;
     margin-right: auto ;
     padding: 0px;
-    background-color: #ABCDEF;
+    background-color: rgb(214, 225, 236);
 }
 
 .navbar ul {
@@ -31,7 +41,7 @@ body {
     margin: 0px;
     padding: 0px;
     width: 90%;
-    /*overflow: hidden;*/
+
 }
 
 .navbar li {
@@ -48,4 +58,65 @@ body {
 
 h11 {
     font-size: 11px;
+}
+
+
+
+.row-content {
+    padding: 10px 0;
+    min-height: 100px;
+    border: none;
+    margin: 20px 50px;
+    
+}
+
+.carousel-caption {
+    background-color: rgba(214, 206, 206, 0.5);
+}
+
+h4 {
+    font-family: "Lobster", cursive;
+    font-weight: bold;
+    text-align: center;
+    color: rgb(116, 101, 101);
+    font-size: 300%;
+}
+
+iframe {
+    display:block;
+    margin: auto;
+} 
+
+.center {
+    text-align: center;
+}
+
+.matcha {
+    background:url('../img/matcha.jpg') no-repeat center center / cover ;
+    height:250px;
+    color: white; 
+}
+
+.modal {
+    text-align: center;
+    padding: 0!important;
+  }
+  .modal:before {
+    content: '';
+    display: inline-block;
+    height: 100%;
+    vertical-align: middle;
+    margin-right: -4px;
+  }
+  .modal-dialog {
+    display: inline-block;
+    text-align: left;
+    vertical-align: middle;
+  }
+
+
+input, button {
+
+    display:inline-block;
+
 }
